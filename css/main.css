@@ -1,0 +1,43 @@
+/* 
+#2e2e2a - fondo
+#f9a91a - hover
+*/
+
+/* Aplicando estilos con selectores */
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid yellow;*/
+}
+
+ul {
+  background: #2e2e2a;
+  line-height: 40px;
+  list-style: none;
+  margin: 0;
+  /*outline: 1px solid blue;*/
+  overflow: auto;
+  padding: 0;  
+}
+
+li {
+  /*display: inline-block;*/
+  /*outline: 1px solid red;*/
+  float: left;
+  text-align: center;
+  width: 100px;
+}
+
+a {
+  color: #fff;
+  display: block;
+  /*outline: 1px solid green;*/
+  text-decoration: none; 
+}
+
+a:hover {
+  background: #f9a91a;
+  color: #000;
+}
